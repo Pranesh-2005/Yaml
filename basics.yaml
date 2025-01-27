@@ -1,0 +1,47 @@
+h: "Iam Pranesh"
+---
+cities: 
+ - snkl
+ - ppy
+ - oop
+---
+#dataTypes
+i: !!int 5
+f: !!float 2.3
+b: !!bool Y
+s: !!str I love her
+e: 6E4
+co: !!int +500,000
+---
+#multiple lines
+ml: |
+ hello
+ hii
+
+#message in same
+ms: <
+ hii
+ hello
+ i
+ am
+ pranesh s 
+
+#NULL
+nl: !!NULL n
+
+#advanceDataTypes
+sparse sequence:
+ -a
+ -b
+ -
+ -
+ -d
+ -a
+nestedSeq: 
+ - 
+  - a
+  - b
+ -
+  - c
+  - d 
+...
